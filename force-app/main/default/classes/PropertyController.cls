@@ -128,5 +128,8 @@ public with sharing class PropertyController {
     public bugFixCommit() {
         System.debug('This is my bugFix commit');
     }
+    public newDevCommit() {
+        System.debug('This is my New Dev commit');
+    }
 }
 /*Commit 2*/
