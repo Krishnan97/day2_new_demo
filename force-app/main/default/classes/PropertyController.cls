@@ -122,6 +122,9 @@ public with sharing class PropertyController {
             ORDER BY CreatedDate
         ];
     }
+    public devCommit() {
+        System.debug('This is my dev commit');
+    }
     public bugFixCommit() {
         System.debug('This is my bugFix commit');
     }
